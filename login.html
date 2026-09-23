@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Login - Nature's Platter</title>
+
+    <!-------------------- Font Awesome -------------------->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.3.1/css/all.min.css">
+
+    <!-------------------- Tailwind CSS -------------------->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+</head>
+
+
+<body class="bg-[#f1eee7] min-h-screen">
+
+
+
+
+    <header class="bg-white shadow-sm">
+
+        <nav class="container mx-auto flex items-center justify-between px-4 py-4">
+
+
+            <a href="index.html">
+
+                <img src="./assets/nav-logo.png" alt="Nature's Platter" class="w-[120px]">
+
+            </a>
+
+
+            <a href="index.html" class="text-green-600 font-semibold hover:text-green-700">
+
+                <i class="fa-solid fa-arrow-left mr-2"></i>
+                Back to Home
+
+            </a>
+
+        </nav>
+
+    </header>
+
+
+
+    <main class="container mx-auto px-4 py-12 md:py-20">
+
+        <div
+            class="max-w-[950px] mx-auto bg-white rounded-3xl overflow-hidden shadow-lg grid grid-cols-1 md:grid-cols-2">
+
+
+
+            <div class="bg-green-700 text-white p-8 md:p-12 flex flex-col justify-center">
+
+                <span class="bg-white/20 w-fit px-4 py-2 rounded-full text-sm mb-6">
+
+                    Welcome Back 👋
+
+                </span>
+
+
+                <h1 class="text-4xl md:text-5xl font-bold leading-tight">
+
+                    Fresh Food,
+                    <span class="text-green-200">
+                        Fresh Life.
+                    </span>
+
+                </h1>
+
+
+                <p class="text-white/80 mt-5 leading-relaxed">
+
+                    Login to your Nature's Platter account and
+                    continue your fresh grocery shopping journey.
+
+                </p>
+
+
+
+
+                <div class="mt-8 space-y-4">
+
+                    <div class="flex items-center gap-3">
+
+                        <div class="w-9 h-9 bg-white/20 rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-check"></i>
+
+                        </div>
+
+                        <p>
+                            Fresh and quality products
+                        </p>
+
+                    </div>
+
+
+                    <div class="flex items-center gap-3">
+
+                        <div class="w-9 h-9 bg-white/20 rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-truck-fast"></i>
+
+                        </div>
+
+                        <p>
+                            Fast home delivery
+                        </p>
+
+                    </div>
+
+
+                    <div class="flex items-center gap-3">
+
+                        <div class="w-9 h-9 bg-white/20 rounded-full flex items-center justify-center">
+
+                            <i class="fa-solid fa-headset"></i>
+
+                        </div>
+
+                        <p>
+                            24/7 customer support
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+
+
+            <div class="p-8 md:p-12">
+
+                <div class="mb-8">
+
+                    <h2 class="text-3xl font-bold">
+                        Login
+                    </h2>
+
+                    <p class="text-gray-500 mt-2">
+                        Enter your account details below.
+                    </p>
+
+                </div>
+
+
+
+                <form class="space-y-5">
+
+
+
+                    <div>
+
+                        <label class="block font-semibold mb-2">
+
+                            Email Address
+
+                        </label>
+
+                        <div class="relative">
+
+                            <i class="fa-solid fa-envelope absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
+                            </i>
+
+                            <input type="email" placeholder="Enter your email"
+                                class="w-full border border-gray-200 rounded-lg py-3 pl-11 pr-4 outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div>
+
+                        <div class="flex justify-between mb-2">
+
+                            <label class="font-semibold">
+
+                                Password
+
+                            </label>
+
+                            <a href="#" class="text-green-600 text-sm hover:underline">
+
+                                Forgot Password?
+
+                            </a>
+
+                        </div>
+
+
+                        <div class="relative">
+
+                            <i class="fa-solid fa-lock absolute left-4 top-1/2 -translate-y-1/2 text-gray-400">
+                            </i>
+
+                            <input type="password" placeholder="Enter your password"
+                                class="w-full border border-gray-200 rounded-lg py-3 pl-11 pr-12 outline-none focus:border-green-500 focus:ring-1 focus:ring-green-500">
+
+                            <i
+                                class="fa-solid fa-eye absolute right-4 top-1/2 -translate-y-1/2 text-gray-400 cursor-pointer">
+                            </i>
+
+                        </div>
+
+                    </div>
+
+
+
+
+                    <div class="flex items-center gap-2">
+
+                        <input type="checkbox" id="remember" class="accent-green-600 cursor-pointer">
+
+                        <label for="remember" class="text-gray-600 cursor-pointer">
+
+                            Remember me
+
+                        </label>
+
+                    </div>
+
+
+
+                    <button type="submit"
+                        class="w-full bg-green-600 text-white font-semibold py-3 rounded-lg hover:bg-green-700 transition cursor-pointer">
+
+                        Login
+
+                        <i class="fa-solid fa-arrow-right-to-bracket ml-2">
+                        </i>
+
+                    </button>
+
+
+                </form>
+
+
+                <div class="flex items-center gap-4 my-7">
+
+                    <div class="h-px bg-gray-200 flex-1"></div>
+
+                    <span class="text-gray-400 text-sm">
+                        OR
+                    </span>
+
+                    <div class="h-px bg-gray-200 flex-1"></div>
+
+                </div>
+
+
+
+                <div class="grid grid-cols-2 gap-3">
+
+                    <button class="border border-gray-200 rounded-lg py-3 hover:bg-gray-50 cursor-pointer">
+
+                        <i class="fa-brands fa-google mr-2"></i>
+                        Google
+
+                    </button>
+
+
+                    <button class="border border-gray-200 rounded-lg py-3 hover:bg-gray-50 cursor-pointer">
+
+                        <i class="fa-brands fa-facebook mr-2"></i>
+                        Facebook
+
+                    </button>
+
+                </div>
+
+
+
+
+                <p class="text-center text-gray-600 mt-7">
+
+                    Don't have an account?
+
+                    <a href="register.html" class="text-green-600 font-semibold hover:underline">
+
+                        Create Account
+
+                    </a>
+
+                </p>
+
+            </div>
+
+        </div>
+
+    </main>
+
+
+
+    <!-------------------- FOOTER -------------------->
+
+    <footer class="bg-green-700 text-white">
+
+        <div class="container mx-auto px-6 py-8">
+
+            <div class="flex flex-col md:flex-row justify-between items-center gap-5">
+
+                <p class="text-white/80 text-center md:text-left">
+
+                    © 2026 Nature's Platter. All rights reserved.
+
+                </p>
+
+
+                <div class="flex gap-5 text-xl">
+
+                    <a href="#" class="hover:text-gray-300 cursor-pointer">
+                        <i class="fa-brands fa-facebook"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-gray-300 cursor-pointer">
+                        <i class="fa-brands fa-instagram"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-gray-300 cursor-pointer">
+                        <i class="fa-brands fa-linkedin"></i>
+                    </a>
+
+                    <a href="#" class="hover:text-gray-300 cursor-pointer">
+                        <i class="fa-brands fa-youtube"></i>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
